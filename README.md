@@ -1,3 +1,10 @@
 # Twisted Web Client
 ## Intro
-This is a web client implementation using the Twisted Python Framework for network application development.
+An implementation of a web client using the [Twisted Framework](https://twistedmatrix.com/trac/) for network application development.
+
+Twisted is an event-driven framework for Python. It uses a `reactor` event loop as the main part, waiting for events to occur.
+
+## Packages used
+* twisted
+* pyopenssl
+* crypto
