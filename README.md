@@ -18,3 +18,10 @@ python twclient.py <command> <url>
 * twisted
 * pyopenssl
 * crypto
+
+
+## Licence
+
+Source code can be found on [github](https://github.com/martinord/twclient), licenced under [GPL-3.0](https://opensource.org/licenses/GPL-3.0).
+
+Developed by [Martiño Rivera](https://github.com/martinord)
