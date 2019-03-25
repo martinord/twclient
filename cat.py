@@ -24,4 +24,4 @@ if __name__ == "__main__":
         url = sys.argv[1]
         run(url)
     else:
-        print "Syntax: twclient.py <command> <url>"
+        print "Syntax: %s <url>" % sys.argv[0]
