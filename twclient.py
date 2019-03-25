@@ -1,4 +1,5 @@
-import sys, cat
+import os, sys
+import cat, download
 
 # Main
 if len(sys.argv) == 3:
@@ -7,7 +8,9 @@ if len(sys.argv) == 3:
     # switch for commands
     if command == "cat":
         cat.run(url)
+    elif command == "download":
+        download.run(url)
     else:
         print "Invalid command"
 else:
-    print "Syntax: twclient.py <command> <url>"
+    print "Syntax: %s <command> <url>" % sys.argv[0]

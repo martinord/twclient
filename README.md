@@ -11,7 +11,8 @@ python twclient.py <command> <url>
 ```
 
 **Commands:**
-* `cat`
+* `cat`: Shows the source of the page in the standard output
+* `download`: Downloads the source of the page in a temporary file and shows the path
 
 
 ## Packages used
