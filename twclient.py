@@ -1,5 +1,5 @@
 import os, sys
-import cat, download
+import cat, download, upload
 
 # Main
 if len(sys.argv) == 3:
@@ -10,6 +10,8 @@ if len(sys.argv) == 3:
         cat.run(url)
     elif command == "download":
         download.run(url)
+    elif command == "upload":
+        upload.run(url)
     else:
         print "Invalid command"
 else:
