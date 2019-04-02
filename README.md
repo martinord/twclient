@@ -13,6 +13,7 @@ python twclient.py <command> <url>
 **Commands:**
 * `cat`: Shows the source of the page in the standard output
 * `download`: Downloads the source of the page in a temporary file and shows the path
+* `upload`: Uploads a file to a web page using HTTP post and the multipart/form-data encoding
 
 
 ## Packages used
