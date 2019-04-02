@@ -1,6 +1,6 @@
 from twisted.web import client
 from twisted.internet import reactor
-import os, tempfile
+import os, tempfile, webbrowser
 
 # Handler that returns the same value given as input
 def returnThis(_, arg):
@@ -17,6 +17,8 @@ def downloadToTempFile(url):
 
 def showFileName(fileName):
     print "Web page downloaded to: " + fileName
+    if raw_input("Open? (y/n):") == 'y':
+        webbrowser.open('file://' + fileName)
     reactor.stop()
 
 def run(url):
